@@ -22,6 +22,7 @@ function compute() {
     //Write a condition to alert the user for a wrong input, other wise execute the solution.
 
     alert('Enter a positive number')
+    document.getElementById('principal').focus()
     document.getElementById('principal').style.backgroundColor = 'pink'
   } else {
     document.getElementById('principal').style.backgroundColor = 'white'
