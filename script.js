@@ -27,10 +27,10 @@ function compute() {
   } else {
     document.getElementById('principal').style.backgroundColor = 'white'
     document.getElementById('result').style.display = "block"
-    document.getElementById('p').innerText = principal
+    document.getElementById('p').innerText = "$" + principal
     document.getElementById('n').innerText = rate + "%"
     document.getElementById('y').innerText = year
-    document.getElementById('a').innerText = interest
+    document.getElementById('a').innerText = "$" + interest
   }
 }
 document.getElementById('result').on('click', compute) //Integrate the event with the function to return the expected result for the user.
